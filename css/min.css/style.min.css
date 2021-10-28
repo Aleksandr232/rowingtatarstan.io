@@ -228,7 +228,12 @@ body{
     min-height: 450px;
     font-size: 12px;
     opacity: 0.8;
+    background-color:#607b8b;
 }    
+
+.bg-light {
+    --bs-bg-opacity: 0.6;
+}
 
 h1{
     font-size: 19px;
@@ -274,10 +279,20 @@ h2{
 
 .photo {
     background-color: black;
-    margin-top: 250px;
+    margin-top: 230px;
+}
+.concept_container{
+    width:100%
+}
+
+th{
+    padding: -30px;
+}
+table{
+    font-size: 10px;
 }
 
 }
 
 
-/*# sourceMappingURL=style.min.css.map */
+/*# sourceMappingURL=style.min.css.map * /

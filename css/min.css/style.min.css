@@ -209,7 +209,11 @@ footer a:hover {
 .rowing{
     background: url("https://im.kommersant.ru/Issues.photo/LifeStyle_Online/2019/06/27/KMO_120232_20616_1_t218_153158.jpg")  center center/cover no-repeat;
     overflow-x:hidden;
-}    
+}
+
+body{
+    overflow-x:hidden;
+}
 
 .navbar {
     width: 100%;
@@ -217,7 +221,7 @@ footer a:hover {
 .container_text{
     position: relative;
     width: 100%;
-    min-height: 650px;
+    min-height: 550px;
     font-size: 10px;
     opacity: 0.8;
 }    

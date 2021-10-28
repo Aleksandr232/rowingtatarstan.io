@@ -214,7 +214,7 @@ footer a:hover {
 html {
     overflow-x: hidden;
   }
-  
+
 body{
     overflow-x:hidden;
 }
@@ -225,7 +225,7 @@ body{
 .container_text{
     position: relative;
     width: 100%;
-    min-height: 550px;
+    min-height: 450px;
     font-size: 10px;
     opacity: 0.8;
 }    
@@ -249,7 +249,7 @@ h2{
 }
 
 .footer_links_main {
-    margin: 10px 176px 0px -140px;
+    margin: 10px 159px 0px -140px;
 }
 .footer_links_sub a{
     font-size: 9px;

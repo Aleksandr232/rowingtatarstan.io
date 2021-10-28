@@ -203,6 +203,62 @@ footer a:hover {
     text-align: center;
 }
 
+@media (max-width: 767px){
+    .rowing{
+        background: url("https://im.kommersant.ru/Issues.photo/LifeStyle_Online/2019/06/27/KMO_120232_20616_1_t218_153158.jpg")  center center/cover no-repeat;
+        overflow-x:hidden;
+    }
+    
+    html {
+        overflow-x: hidden;
+      }
+    
+    body{
+        overflow-x:hidden;
+    }
+    
+    .navbar {
+        width: 100%;
+    }    
+    .container_text{
+        position: relative;
+        width: 100%;
+        min-height: 450px;
+        font-size: 12px;
+        opacity: 0.8;
+        
+    }    
+    
+    .bg-light {
+        --bs-bg-opacity: 0.6;
+    }
+    
+    h1{
+        font-size: 19px;
+        font-weight: 700;
+    }
+    h2{
+        font-size: 15px;
+    }
+    
+    .photo {
+        background-color: black;
+        margin-top: 230px;
+    }
+    .concept_container{
+        width:100%
+    }
+    
+    th{
+        padding: -30px;
+    }
+    table{
+        font-size: 10px;
+    }
+    
+
+}
+
 @media (max-width: 575px) {
 
 
@@ -294,61 +350,7 @@ table{
 
 }
 
-@media (max-width: 767px){
-    .rowing{
-        background: url("https://im.kommersant.ru/Issues.photo/LifeStyle_Online/2019/06/27/KMO_120232_20616_1_t218_153158.jpg")  center center/cover no-repeat;
-        overflow-x:hidden;
-    }
-    
-    html {
-        overflow-x: hidden;
-      }
-    
-    body{
-        overflow-x:hidden;
-    }
-    
-    .navbar {
-        width: 100%;
-    }    
-    .container_text{
-        position: relative;
-        width: 100%;
-        min-height: 450px;
-        font-size: 12px;
-        opacity: 0.8;
-        
-    }    
-    
-    .bg-light {
-        --bs-bg-opacity: 0.6;
-    }
-    
-    h1{
-        font-size: 19px;
-        font-weight: 700;
-    }
-    h2{
-        font-size: 15px;
-    }
-    
-    .photo {
-        background-color: black;
-        margin-top: 230px;
-    }
-    .concept_container{
-        width:100%
-    }
-    
-    th{
-        padding: -30px;
-    }
-    table{
-        font-size: 10px;
-    }
-    
 
-}
 
 
 /*# sourceMappingURL=style.min.css.map * /

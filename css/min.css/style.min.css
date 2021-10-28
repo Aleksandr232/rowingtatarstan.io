@@ -211,6 +211,7 @@ footer a:hover {
 }    
 
 .container_text{
+    position: relative;
     width: 100%;
     min-height: 650px;
     font-size: 10px;

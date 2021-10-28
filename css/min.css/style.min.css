@@ -211,6 +211,10 @@ footer a:hover {
     overflow-x:hidden;
 }
 
+html {
+    overflow-x: hidden;
+  }
+  
 body{
     overflow-x:hidden;
 }

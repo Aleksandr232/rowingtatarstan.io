@@ -124,3 +124,22 @@ const result = document.querySelector('.calculating__result span');
     getDynamicInformation('#weight');
     getDynamicInformation('#age');
    
+
+
+    $(document).ready(function(){
+        $('.carousel_inner').slick({
+            speed: 1300,
+            autoplay: true,
+            autoplaySpeed: 1200,
+            prevArrow: '<button type="button" class="carousel-control-prev"><img src="carousel-control-prev-icon"></button>',
+            nextArrow: '<button type="button" class="carousel-control-next"><img src="carousel-control-next-icon"></button>',
+            responsive: [
+                {  
+                    breakpoint: 768,
+                    settings: {
+                    dots: false,
+                    arrows:false
+                    }
+                }
+            ]   
+    }); }); 

@@ -86,6 +86,13 @@ footer {
     padding: 14px 23px 0px 23px;
 }
 
+.footer_mobile :hover{
+    content: '';
+    transform: translateY(-10px);
+    
+    
+}
+
 footer a:hover {
     text-decoration: none;
 }
@@ -167,6 +174,37 @@ footer a:hover {
     justify-content: space-between;
     padding: 0 10px;
 }
+
+@keyframes ani {
+    from {
+        transform: rotate(1turn);
+    }
+    to{
+        transform: rotate(-1turn);
+    }
+}
+
+@-webkit-keyframes ani {
+    from {
+        transform: rotate(1turn)
+    }
+
+    to {
+        transform: rotate(-1turn)
+    }
+}
+
+.footer_social_item_ani {
+    -webkit-animation: ani 70s ease infinite;
+    animation: ani 40s ease infinite ;
+}
+
+.footer_social_item_ani:hover {
+    -webkit-animation-play-state:paused;
+    animation-play-state: paused;
+}
+    
+
 
 .footer_links_main a {
     color: black;

@@ -31,6 +31,40 @@
     background: url("https://imgresizer.eurosport.com/unsafe/1200x0/filters:format(jpeg):focal(1371x603:1373x601)/origin-imgresizer.eurosport.com/2016/08/13/1910934-40214441-2560-1440.jpg") center center/cover no-repeat
 }
 
+.team{
+    background:#0f3e5d;
+}
+
+.container_tatr{
+    min-height: 1260px;
+    background-color: white;
+    font-weight: 600;
+    opacity: 0.9;
+    margin: 0px auto 0px;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3, 229px);
+    grid-template-rows: repeat(3, 260px);
+    grid-auto-rows: 250px;
+    gap: 156px;
+}
+
+.img_sport{
+    width: 100%;
+}
+
+.name_sportsmen{
+    color:black;
+    text-decoration: none;
+}
+
+.name_sportsmen:hover{
+    content:'';
+    color:red;
+    transition: 0.3s all;
+
+}
+
 .btn {
     margin-right: 1400px;
     margin-bottom: 50px
@@ -607,6 +641,11 @@ table{
 .calculating__choose-item{
 font-size: 9px;
 width: 100%;
+}
+
+.container_tatr{
+    width: 100%;
+    display: inline-block;
 }
 
 }

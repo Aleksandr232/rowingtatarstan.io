@@ -40,7 +40,7 @@
     background-color: white;
     font-weight: 600;
     opacity: 0.9;
-    margin: 0px auto 0px;
+    margin: -88px auto 0px;
     width: 1000px;
     display: grid;
     grid-template-columns: repeat(3, 229px);
@@ -654,6 +654,17 @@ width: 100%;
     text-align: center;
 }
 
+
+.btn-outline-primary{
+    z-index: 100;
+    position: absolute;
+    background-color:blue;
+    color: white;
+}
+    
+
+    
+    
 
 }
 

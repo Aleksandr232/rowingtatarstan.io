@@ -32,7 +32,7 @@
 }
 
 .team{
-    background:#0f3e5d;
+    background:url('https://phototass3.cdnvideo.ru/width/1200_4ce85301/tass/m2/uploads/i/20210729/6260121.jpg')center center/cover no-repeat ;
 }
 
 .container_tatr{
@@ -46,7 +46,7 @@
     grid-template-columns: repeat(3, 229px);
     grid-template-rows: repeat(3, 260px);
     grid-auto-rows: 250px;
-    gap: 156px;
+    gap: 157px;
 }
 
 .img_sport{
@@ -512,6 +512,11 @@ footer a:hover {
         width: 100%;
 
     }
+    .container_tatr{
+        min-height: 2100px;
+        display: grid;
+        grid-template-columns: repeat(2, 229px);
+    }
 }
 
 @media (max-width: 575px) {
@@ -646,7 +651,9 @@ width: 100%;
 .container_tatr{
     width: 100%;
     display: inline-block;
+    text-align: center;
 }
+
 
 }
 
